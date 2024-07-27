@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+}
+
+/* shared style */
+.work-sans-fonts {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.light-orange-bg{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
+
+
+/* Header Style */
+.nav-brand{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 00;
+    line-height: 40px;
+    letter-spacing: 0%;   
+}
+
+.nav-bar{
+    max-width: 1440px;
+    min-height: 80px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Section Styles */
+
+
+/* Footer Styles */
