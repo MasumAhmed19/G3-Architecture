@@ -56,6 +56,11 @@
     text-align: center;
 }
 
+
+main > section{
+    margin-bottom: 100px;
+}
+
 /* Header Style */
 .nav-brand{
     color: rgb(19, 19, 19);
@@ -101,7 +106,7 @@
 .hero-section{
     max-width: 1440px;
     margin: 0 auto;  
-    padding: 100px 0; 
+    padding: 40px 0; 
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -139,10 +144,33 @@
 
 
 
+
+/* Team Section */
+.section-two{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+}
+
+
+
+
+
+
+
+
+
+
 /* Responsive Media Query */
 
 
-
+@media screen and (max-width: 576px){
+    
+}
 
 
 
