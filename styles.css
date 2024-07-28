@@ -31,6 +31,14 @@
     color:rgb(114, 114, 114)
 }
 
+.orange {
+    color: rgb(255, 144, 14);
+}
+
+.lefft{
+    text-align: start;
+}
+
 
 .paragraph{
     color: rgb(114, 114, 114);
@@ -54,11 +62,12 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 
 main > section{
-    margin-bottom: 100px;
+    margin-bottom: 100px ;
 }
 
 /* Header Style */
@@ -149,6 +158,8 @@ main > section{
 .section-two{
     max-width: 1440px;
     margin: 0 auto;
+    gap:40px;
+    align-items: center;
 }
 .team-images{
     display: grid;
@@ -157,12 +168,102 @@ main > section{
 }
 
 
+.team-title{
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.team-paragraph{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;      
+}
+
+.team-content{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
 
 
+/* Some Facts Section */
+
+.some-facts-section{
+    max-width: 1440px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 110px 10px;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.facts-title{
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.facts-paragraph{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.facts-card-div{
+    justify-content: space-around;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.facts-card{
+    width: 170px;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-title{
+    color: rgb(207, 41, 41);
+    font-family: Work Sans;
+    font-size: 110rem;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 
-
-
+.card-title{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 
 /* Responsive Media Query */
